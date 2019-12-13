@@ -1,0 +1,49 @@
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: 3px solid grey;
+    margin: auto;
+    width: 800px;
+}
+
+th, td {
+    padding: 4px;
+}
+
+
+tbody td {
+    text-align: left;
+    word-break: break-all;
+}
+
+tbody tr:hover{
+    background-color: #e4e2e2;
+}
+.option{
+    width: 60px;
+}
+thead{
+    border-bottom: 3px solid grey;
+    cursor: pointer
+    
+}
+.icons{
+    width: 20px;
+    padding-left: 4px;
+}
+.icons:hover{
+    transform: scale(1.2);
+}
+
+.hidden{
+    padding-right: 12px;
+}
+
+.status-cell{
+    font-size: 14px;
+    max-width: 200px;
+}
+
+.default-table{
+    text-align: center;
+}
