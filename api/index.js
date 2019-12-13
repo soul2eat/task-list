@@ -23,6 +23,9 @@ router.get('/', async function (req, res) {
         // ORDER BY
         if (~SORT_BY.indexOf(sort_field)) {
             queryParams += ' ORDER BY ' + sort_field;
+            if(sort_field === 'status'){
+                queryParams += ', edited';
+            }
         } else {
             queryParams += ' ORDER BY id';
 
