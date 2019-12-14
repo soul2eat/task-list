@@ -35,7 +35,7 @@ export default class Table extends PureComponent {
         if(!tasks.length){
             return (
                 <tr>
-                    <td colspan="5" className="default-table">Еще нету созданых задач</td>
+                    <td colspan="4" className="default-table">Еще нету созданых задач</td>
                 </tr>
             )
         }
